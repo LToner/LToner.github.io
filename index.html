@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haukai Restaurant homepage</title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
@@ -10,31 +11,40 @@
     <header class="header">
       <h1>Haukai Restaurant</h1>
     </header>
-    <nav class="topnav">
-      <a href="#" class="topnav">Home</a></li>
-      <a href="#" class="topnav">Menu</a></li>
-      <a href="#" class="topnav">Hours</a></li>
-      <a href="#" class="topnav">Contact</a></li>
-      <a href="#" class="topnav">Reservations</a></li>
-    </nav>
+    <ul class="topnav">
+      <li><a class="active" href="index.html" >Home</a></li>
+      <li><a href="menu.html" class="topnav">Menu</a></li>
+      <li><a href="hours.html" class="topnav">Hours</a></li>
+      <li><a href="contact.html" class="topnav">Contact</a></li>
+      <li><a href="reservations.html" class="topnav">Reservations</a></li>
+    </ul>
     <!-- Main content -->
     <main>
       <div class="row">
-        <div class="column">
-          <h2>Column 1</h2>
-          <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
+        <div class="column side">
+          <h2>Side</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
         </div>
-        <div class="column">
-          <h2>Column 2</h2>
-          <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
+        
+        <div class="column middle">
+          <h2>Main Content</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
+        
+        <div class="column side">
+          <h2>Side</h2>
+          <img src="images\inside.jpg" 
+          alt="Inside of Haukai Restaurant."
+          width="100%"
+          height="100%">
         </div>
       </div>
     </main>
     <!-- Copyright footer-->
     <footer class="footer">
-      <p>©Copyright 2022 by Haukai Restaurant. All rights reversed.</p>
+      <a class="footertext" href="privacypolicy.html">Privacy Policy</a>
+      <p class="footertext">©Copyright 2022 by Haukai Restaurant. All rights reversed.</p>
     </footer>
   </body>
 </html>
