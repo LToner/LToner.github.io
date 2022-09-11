@@ -48,6 +48,37 @@ ul.topnav {
     ul.topnav li {float: none;}
   }
 
+/*Style menu */
+.menu-category {
+    color: #02aee2;
+    font-size: 24px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 30px 0px 10px 0px;
+  }
+
+.item {
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 0px 0px 0px;
+}
+
+.item-desc {
+  color: orange;
+  font-size: 16px;
+  padding: 0px 1px 0px 1px;
+  margin: 1;
+  line-height: 1;
+}
+
+.bevtitle {
+  color: black;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 10px 0px 0px 0px;
+}
 
 /* Create three unequal columns that floats next to each other */
 .column {
