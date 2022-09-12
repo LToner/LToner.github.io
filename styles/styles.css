@@ -16,6 +16,11 @@ body {
 /*Style H1 text */
 h1{
     color: white;
+    font-size: 30px;
+}
+
+.bigfont {
+  font-size: 400%;
 }
 
 /* Style the top navigation bar */
@@ -78,6 +83,12 @@ ul.topnav {
   text-transform: uppercase;
   text-decoration: underline;
   padding: 10px 0px 0px 0px;
+}
+
+.imgfont {
+  color:orange;
+  font-size: 22px;
+  padding: 10px 0px 0px 0px
 }
 
 /* Create three unequal columns that floats next to each other */
