@@ -1,19 +1,18 @@
-/* Universal box sizing */
 * {
     box-sizing: border-box;
 }
-/* Set the size of the body */
+
 body {
   width: 100%;
 }
-/* Style the header */
+
 .header {
-    background-color:#02aee2;
+    background-color:#105367;
     text-align: center;
     padding: 20px;
 }
 
-/*Style H1 text */
+
 h1{
     color: white;
     font-size: 30px;
@@ -23,7 +22,7 @@ h1{
   font-size: 400%;
 }
 
-/* Style the top navigation bar */
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
